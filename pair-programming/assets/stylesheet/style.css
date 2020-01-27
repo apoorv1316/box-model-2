@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Main Styling */
+body{
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background: #2D3040;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    padding: 20px;
+}
+.nav-link{
+    text-align: center;
+}
+.nav-link a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 32px;
+
+}
+/* Hero */
+.hero {
+    background-color: #2D3040;
+    padding: 150px 0;
+  }
+.hero-heading{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    width: 660px;
+    margin-bottom: 30px;
+  } 
+  .hero-text{
+      color: #fff;
+      font-weight: 300;
+      margin: 32px 0;
+      /* Doubt */
+      letter-spacing: 2px;
+  }
+  .padding {
+    padding: 50px 0;
+  }
+  /* Secondary */
+  .secondary{
+      background: #4C5C96;
+
+  }
+  .heading {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  img{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+  }
+  .para{
+      color: #fff;
+      font-size: 18px;
+  }
+  .learn-more{
+        font-size: 16px;
+        color: #fff;
+        font-weight: 700;
+        padding-top: 10px;
+        text-transform: uppercase;
+  }
+  .teritary{
+      background: #45558D;
+  }
+  .last{
+      background: #3F4E85;
+  }
+  .footer{
+      background: #2D3040;
+      padding:50px
+  }
+  .copyright {
+    color: #8E8F97;
+  }
+.border{
+    width: inherit;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+ 
