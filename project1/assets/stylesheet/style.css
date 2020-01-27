@@ -84,7 +84,7 @@ hr{
     background:#D9F6D4;
     margin: 0 auto;
     display: inline-block;
-    margin-left: 80px;
+    margin-left: 65px;
 
 
 }
@@ -93,15 +93,15 @@ p{
 }
 .bg1{
     background: #ADD8E6;
-    /* display: inline-block; */
+    display: inline-block;
 }
 .bg2{
     background: black;
-    /* display: inline-block; */
+    display: inline-block;
 }
 .bg3{
     background: #ED7E7F;
-    /* display: inline-block; */
+    display: inline-block;
 }
 .small-circle{
     display: inline-block;
@@ -136,4 +136,10 @@ p{
 }
 .last{
     box-sizing: border-box;
+}
+.abc{
+    display: inline-block
+}
+.des{
+    display: inline-block;
 }
